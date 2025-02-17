@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "qo4zuexszJ0=",
+  "success": false,
+  "projectFilePath": "D:\\PTPMQL-main\\PTPMQL-main\\PTPMQL\\mvc\\mvc.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "libraryId": "Microsoft.AspNetCore.Mvc"
+    }
+  ]
+}
