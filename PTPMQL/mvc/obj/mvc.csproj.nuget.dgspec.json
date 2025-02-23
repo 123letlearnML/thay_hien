@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PTPMQL-main\\PTPMQL-main\\PTPMQL\\mvc\\mvc.csproj": {}
+    "C:\\mvc\\PTPMQL\\mvc\\mvc.csproj": {}
   },
   "projects": {
-    "D:\\PTPMQL-main\\PTPMQL-main\\PTPMQL\\mvc\\mvc.csproj": {
+    "C:\\mvc\\PTPMQL\\mvc\\mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PTPMQL-main\\PTPMQL-main\\PTPMQL\\mvc\\mvc.csproj",
+        "projectUniqueName": "C:\\mvc\\PTPMQL\\mvc\\mvc.csproj",
         "projectName": "mvc",
-        "projectPath": "D:\\PTPMQL-main\\PTPMQL-main\\PTPMQL\\mvc\\mvc.csproj",
-        "packagesPath": "C:\\Users\\mayti\\.nuget\\packages\\",
-        "outputPath": "D:\\PTPMQL-main\\PTPMQL-main\\PTPMQL\\mvc\\obj\\",
+        "projectPath": "C:\\mvc\\PTPMQL\\mvc\\mvc.csproj",
+        "packagesPath": "C:\\Users\\hkhon\\.nuget\\packages\\",
+        "outputPath": "C:\\mvc\\PTPMQL\\mvc\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mayti\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\hkhon\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
