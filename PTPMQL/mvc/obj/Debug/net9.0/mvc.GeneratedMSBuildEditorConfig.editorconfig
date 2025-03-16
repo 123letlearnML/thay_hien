@@ -17,85 +17,85 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = mvc
 build_property.RootNamespace = mvc
-build_property.ProjectDir = D:\hiendz\PTPMQL\mvc\
+build_property.ProjectDir = C:\Users\duong\Downloads\PTPMQL-main\PTPMQL-main\PTPMQL\mvc\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\hiendz\PTPMQL\mvc
+build_property.MSBuildProjectDirectory = C:\Users\duong\Downloads\PTPMQL-main\PTPMQL-main\PTPMQL\mvc
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/hiendz/PTPMQL/mvc/Views/BMI/Calculate.cshtml]
+[C:/Users/duong/Downloads/PTPMQL-main/PTPMQL-main/PTPMQL/mvc/Views/BMI/Calculate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQk1JXENhbGN1bGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hiendz/PTPMQL/mvc/Views/BMI/Create.cshtml]
+[C:/Users/duong/Downloads/PTPMQL-main/PTPMQL-main/PTPMQL/mvc/Views/BMI/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQk1JXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hiendz/PTPMQL/mvc/Views/Diem/Create.cshtml]
+[C:/Users/duong/Downloads/PTPMQL-main/PTPMQL-main/PTPMQL/mvc/Views/Diem/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hiendz/PTPMQL/mvc/Views/HoaDon/Create.cshtml]
+[C:/Users/duong/Downloads/PTPMQL-main/PTPMQL-main/PTPMQL/mvc/Views/HoaDon/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9hRG9uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hiendz/PTPMQL/mvc/Views/Home/Contact.cshtml]
+[C:/Users/duong/Downloads/PTPMQL-main/PTPMQL-main/PTPMQL/mvc/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hiendz/PTPMQL/mvc/Views/Home/Index.cshtml]
+[C:/Users/duong/Downloads/PTPMQL-main/PTPMQL-main/PTPMQL/mvc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hiendz/PTPMQL/mvc/Views/Home/Privacy.cshtml]
+[C:/Users/duong/Downloads/PTPMQL-main/PTPMQL-main/PTPMQL/mvc/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hiendz/PTPMQL/mvc/Views/Person/Create.cshtml]
+[C:/Users/duong/Downloads/PTPMQL-main/PTPMQL-main/PTPMQL/mvc/Views/Person/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hiendz/PTPMQL/mvc/Views/Person/Data.cshtml]
+[C:/Users/duong/Downloads/PTPMQL-main/PTPMQL-main/PTPMQL/mvc/Views/Person/Data.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hiendz/PTPMQL/mvc/Views/Person/Delete.cshtml]
+[C:/Users/duong/Downloads/PTPMQL-main/PTPMQL-main/PTPMQL/mvc/Views/Person/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hiendz/PTPMQL/mvc/Views/Person/Edit.cshtml]
+[C:/Users/duong/Downloads/PTPMQL-main/PTPMQL-main/PTPMQL/mvc/Views/Person/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hiendz/PTPMQL/mvc/Views/Shared/Error.cshtml]
+[C:/Users/duong/Downloads/PTPMQL-main/PTPMQL-main/PTPMQL/mvc/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hiendz/PTPMQL/mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/duong/Downloads/PTPMQL-main/PTPMQL-main/PTPMQL/mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hiendz/PTPMQL/mvc/Views/Student/Create.cshtml]
+[C:/Users/duong/Downloads/PTPMQL-main/PTPMQL-main/PTPMQL/mvc/Views/Student/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hiendz/PTPMQL/mvc/Views/Student/Index.cshtml]
+[C:/Users/duong/Downloads/PTPMQL-main/PTPMQL-main/PTPMQL/mvc/Views/Student/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hiendz/PTPMQL/mvc/Views/_ViewImports.cshtml]
+[C:/Users/duong/Downloads/PTPMQL-main/PTPMQL-main/PTPMQL/mvc/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hiendz/PTPMQL/mvc/Views/_ViewStart.cshtml]
+[C:/Users/duong/Downloads/PTPMQL-main/PTPMQL-main/PTPMQL/mvc/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/hiendz/PTPMQL/mvc/Views/Shared/_Layout.cshtml]
+[C:/Users/duong/Downloads/PTPMQL-main/PTPMQL-main/PTPMQL/mvc/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-x8p8g49oo3

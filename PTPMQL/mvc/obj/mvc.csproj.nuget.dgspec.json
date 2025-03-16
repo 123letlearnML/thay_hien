@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\hiendz\\PTPMQL\\mvc\\mvc.csproj": {}
+    "C:\\Users\\duong\\Downloads\\PTPMQL-main\\PTPMQL-main\\PTPMQL\\mvc\\mvc.csproj": {}
   },
   "projects": {
-    "D:\\hiendz\\PTPMQL\\mvc\\mvc.csproj": {
+    "C:\\Users\\duong\\Downloads\\PTPMQL-main\\PTPMQL-main\\PTPMQL\\mvc\\mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\hiendz\\PTPMQL\\mvc\\mvc.csproj",
+        "projectUniqueName": "C:\\Users\\duong\\Downloads\\PTPMQL-main\\PTPMQL-main\\PTPMQL\\mvc\\mvc.csproj",
         "projectName": "mvc",
-        "projectPath": "D:\\hiendz\\PTPMQL\\mvc\\mvc.csproj",
+        "projectPath": "C:\\Users\\duong\\Downloads\\PTPMQL-main\\PTPMQL-main\\PTPMQL\\mvc\\mvc.csproj",
         "packagesPath": "C:\\Users\\duong\\.nuget\\packages\\",
-        "outputPath": "D:\\hiendz\\PTPMQL\\mvc\\obj\\",
+        "outputPath": "C:\\Users\\duong\\Downloads\\PTPMQL-main\\PTPMQL-main\\PTPMQL\\mvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\duong\\AppData\\Roaming\\NuGet\\NuGet.Config"
