@@ -1,19 +1,11 @@
 @model mvc.Models.BMI
 
-<div class="w3-container w3-margin">
-    <div class="w3-card-4 w3-light-grey w3-text-blue">
-        <div class="w3-container w3-blue">
-            <h2 class="w3-center">Kết quả BMI</h2>
-        </div>
-        <div class="w3-container w3-padding">
-            @if (Model != null)
-            {
-                <p class="w3-large">Chỉ số BMI: <strong>@Model.CalculateBMI</strong></p>
-                <p class="w3-large">Phân loại: <strong>@Model.Category</strong></p>
-            }
-            <div class="w3-section w3-center">
-                <a asp-action="Create" class="w3-button w3-gray w3-padding">🔙 Quay lại</a>
-            </div>
-        </div>
-    </div>
-</div>
+<h2>Kết quả BMI</h2>
+
+@if (Model != null)
+{
+    <p>Chỉ số BMI: <strong>@Model.CalculateBMI</strong></p>
+    <p>Phân loại: <strong>@Model.Category</strong></p>
+}
+
+<a asp-action="Create">Quay lại</a>

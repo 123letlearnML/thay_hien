@@ -4,39 +4,35 @@
     ViewData["Title"] = "Tính Điểm";
 }
 
-<div class="w3-container w3-margin">
-    <div class="w3-card-4 w3-light-grey w3-text-blue">
-        <div class="w3-container w3-blue">
-            <h2 class="w3-center">Tính Tổng Điểm</h2>
-        </div>
-        <div class="w3-container w3-padding">
-            <form method="post" asp-action="TinhDiem">
-                <div class="w3-section">
-                    <label for="DiemA" class="w3-text-blue">Điểm A:</label>
-                    <input asp-for="DiemA" class="w3-input w3-border" />
-                    <span asp-validation-for="DiemA" class="w3-text-red"></span>
-                </div>
-                <div class="w3-section">
-                    <label for="DiemB" class="w3-text-blue">Điểm B:</label>
-                    <input asp-for="DiemB" class="w3-input w3-border" />
-                    <span asp-validation-for="DiemB" class="w3-text-red"></span>
-                </div>
-                <div class="w3-section">
-                    <label for="DiemC" class="w3-text-blue">Điểm C:</label>
-                    <input asp-for="DiemC" class="w3-input w3-border" />
-                    <span asp-validation-for="DiemC" class="w3-text-red"></span>
-                </div>
-                <div class="w3-section w3-center">
-                    <button type="submit" class="w3-button w3-blue w3-padding">🧮 Tính Điểm</button>
-                </div>
-            </form>
-            @if (ViewBag.SumDiem != null)
-            {
-                <h2 class="w3-center w3-text-green">Kết Quả: @ViewBag.SumDiem</h2>
-            }
-        </div>
+<h1>Tính Tổng Điểm</h1>
+
+<form method="post" asp-action="TinhDiem">
+    <div>
+        <label for="DiemA">Điểm A:</label>
+        <input asp-for="DiemA" class="form-control" />
+        <span asp-validation-for="DiemA" class="text-danger"></span>
     </div>
-</div>
+
+    <div>
+        <label for="DiemB">Điểm B:</label>
+        <input asp-for="DiemB" class="form-control" />
+        <span asp-validation-for="DiemB" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label for="DiemC">Điểm C:</label>
+        <input asp-for="DiemC" class="form-control" />
+        <span asp-validation-for="DiemC" class="text-danger"></span>
+    </div>
+
+    <br />
+    <button type="submit" class="btn btn-primary">Tính Điểm</button>
+</form>
+
+@if (ViewBag.SumDiem != null)
+{
+    <h2>Kết Quả: @ViewBag.SumDiem</h2>
+}
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />

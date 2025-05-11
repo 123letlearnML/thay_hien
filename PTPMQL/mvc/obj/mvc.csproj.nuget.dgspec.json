@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\duong\\Downloads\\PTPMQL-main\\PTPMQL-main\\PTPMQL\\mvc\\mvc.csproj": {}
+    "C:\\mvc\\PTPMQL\\mvc\\mvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\duong\\Downloads\\PTPMQL-main\\PTPMQL-main\\PTPMQL\\mvc\\mvc.csproj": {
+    "C:\\mvc\\PTPMQL\\mvc\\mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\duong\\Downloads\\PTPMQL-main\\PTPMQL-main\\PTPMQL\\mvc\\mvc.csproj",
+        "projectUniqueName": "C:\\mvc\\PTPMQL\\mvc\\mvc.csproj",
         "projectName": "mvc",
-        "projectPath": "C:\\Users\\duong\\Downloads\\PTPMQL-main\\PTPMQL-main\\PTPMQL\\mvc\\mvc.csproj",
-        "packagesPath": "C:\\Users\\duong\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\duong\\Downloads\\PTPMQL-main\\PTPMQL-main\\PTPMQL\\mvc\\obj\\",
+        "projectPath": "C:\\mvc\\PTPMQL\\mvc\\mvc.csproj",
+        "packagesPath": "C:\\Users\\hkhon\\.nuget\\packages\\",
+        "outputPath": "C:\\mvc\\PTPMQL\\mvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\duong\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\hkhon\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -38,12 +38,28 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
             "Microsoft.AspNetCore.Mvc": {
               "target": "Package",
               "version": "[2.3.0, )"
@@ -67,6 +83,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             },
             "System.Data.SQLite": {
               "target": "Package",
@@ -92,7 +112,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.105/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

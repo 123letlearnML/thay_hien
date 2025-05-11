@@ -1,40 +1,27 @@
-@model mvc.Models.Diem
-
 @{
     ViewData["Title"] = "Tính Tiền Hóa Đơn";
 }
 
-<div class="w3-container w3-margin">
-    <div class="w3-card-4 w3-light-grey w3-text-blue">
-        <div class="w3-container w3-blue">
-            <h2 class="w3-center">Tính Tiền Hóa Đơn</h2>
-        </div>
-        <div class="w3-container w3-padding">
-            <form method="post" asp-action="TinhTien">
-                <div class="w3-section">
-                    <label for="soLuong" class="w3-text-blue">Số Lượng:</label>
-                    <input type="number" name="soLuong" min="1" class="w3-input w3-border" required>
-                </div>
-                <div class="w3-section">
-                    <label for="donGia" class="w3-text-blue">Đơn Giá (VND):</label>
-                    <input type="number" name="donGia" min="1000" class="w3-input w3-border" required>
-                </div>
-                <div class="w3-section w3-center">
-                    <button type="submit" class="w3-button w3-blue w3-padding">💰 Tính Tiền</button>
-                </div>
-            </form>
-            @if (ViewBag.ThanhTien != null)
-            {
-                <h2 class="w3-center w3-text-green">Thành Tiền: @ViewBag.ThanhTien.ToString("N0") VND</h2>
-            }
-            @if (ViewBag.Error != null)
-            {
-                <h3 class="w3-center w3-text-red">@ViewBag.Error</h3>
-            }
-        </div>
-    </div>
-</div>
+<h1>Tính Tiền Hóa Đơn</h1>
 
-@section Scripts {
-    <partial name="_ValidationScriptsPartial" />
+<form method="post" asp-action="TinhTien">
+    <div>
+        <label for="soLuong">Số Lượng:</label>
+        <input type="number" name="soLuong" min="1" required><br><br>
+
+        <label for="donGia">Đơn Giá (VND):</label>
+        <input type="number" name="donGia" min="1000" required><br><br>
+
+        <button type="submit">Tính Tiền</button>
+    </div>
+</form>
+
+@if (ViewBag.ThanhTien != null)
+{
+    <h2>Thành Tiền: @ViewBag.ThanhTien.ToString("N0") VND</h2>
+}
+
+@if (ViewBag.Error != null)
+{
+    <h3 style="color: red;">@ViewBag.Error</h3>
 }

@@ -1,19 +1,10 @@
 @model mvc.Models.Person
 
-<div class="container mt-4">
-    <div class="card shadow-lg">
-        <div class="card-header bg-danger text-white text-center">
-            <h2>Xóa Person</h2>
-        </div>
-        <div class="card-body text-center">
-            <p class="fs-5">Bạn có chắc chắn muốn xóa <strong>@Model.FullName</strong> không?</p>
-            <form asp-action="Delete" method="post">
-                <input type="hidden" asp-for="PersonId" />
-                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
-                    <button type="submit" class="btn btn-danger">🗑️ Xóa</button>
-                    <a asp-action="Data" class="btn btn-secondary">🔙 Hủy</a>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
+<h2>Xóa Person</h2>
+<p>Bạn có chắc chắn muốn xóa <strong>@Model.FullName</strong> không?</p>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="PersonId" />
+    <button type="submit" class="btn btn-danger">🗑️ Xóa</button>
+    <a asp-action="Data" class="btn btn-secondary">🔙 Hủy</a>
+</form>
