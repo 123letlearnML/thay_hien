@@ -11207,19 +11207,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hkhon\\.nuget\\packages\\": {}
+    "C:\\Users\\duong\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\mvc\\PTPMQL\\mvc\\mvc.csproj",
+      "projectUniqueName": "D:\\hiendz\\PTPMQL\\mvc\\mvc.csproj",
       "projectName": "mvc",
-      "projectPath": "C:\\mvc\\PTPMQL\\mvc\\mvc.csproj",
-      "packagesPath": "C:\\Users\\hkhon\\.nuget\\packages\\",
-      "outputPath": "C:\\mvc\\PTPMQL\\mvc\\obj\\",
+      "projectPath": "D:\\hiendz\\PTPMQL\\mvc\\mvc.csproj",
+      "packagesPath": "C:\\Users\\duong\\.nuget\\packages\\",
+      "outputPath": "D:\\hiendz\\PTPMQL\\mvc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hkhon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\duong\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -11243,7 +11243,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -11317,7 +11317,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.105/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
